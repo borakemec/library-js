@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Library</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <div class="header-container">
+        <p class="title-text">Library App</p>
+        <div class="add-book">Add Book</div>
+
+        <div class="modal">
+            <div class="modal-content">
+                <span class="close">&times;</span>
+                <form action="" method="post" class="book-form">
+                    <label for="book-name">Book Title: </label>
+                    <input id="book-name" type="text" class="add-book-name" required>
+                    <br>
+                    <label for="author">Author: </label>
+                    <input class="book-author" id="author" type="text" required>
+                    <br>
+                    <label for="pages">Pages: </label>
+                    <input class="book-pages" id="pages" type="number" min="0" required>
+                    <br>
+                    <label for="checkbox">Read? </label>
+                    <input type="checkbox" class="read-check" id="checkbox">
+                    <input type="submit" class="submit-button" value="Add Book">
+                </form>
+            </div>
+        </div>
+
+    </div>
+    <div class="main-container">
+
+
+    </div>
+</body>
+</html>
